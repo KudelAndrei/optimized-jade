@@ -1,30 +1,30 @@
-<h1>GulpHTML - Start HTML Template</h1>
+<h1>GulpJADE- Start Jade Template</h1>
 
 <p>Author: Kudel <a href="https://vk.com/id252972675"></a></a></p>
 
-<p>OptimizedHTML is all-inclusive, optimized for Google PageSpeed start HTML5 template with Bootstrap (grid only), Gulp, Sass, Browsersync, Autoprefixer, Clean-CSS, Uglify, Imagemin, Vinyl-FTP, Bower (libs path) and Bourbon support. The template contains a <strong>.htaccess</strong> file with caching rules for web server.</p>
+<p>OptimizedJade is all-inclusive, optimized for Google PageSpeed start HTML5 template with Bootstrap (grid only), Gulp, Sass, Jade, Browsersync, Autoprefixer, Clean-CSS, Uglify, Imagemin, Vinyl-FTP, Bower (libs path) and Bourbon support. The template contains a <strong>.htaccess</strong> file with caching rules for web server.</p>
 
-<p>OptimizedHTML Start Template uses the best practices of web development and optimized for Google PageSpeed.</p>
+<p>OptimizedJade Start Template uses the best practices of web development and optimized for Google PageSpeed.</p>
 
 <p>Cross-browser compatibility: IE9+.</p>
 
-<p>The template uses a Sass with <strong>Sass</strong> syntax and project structure with source code in the directory <strong>app/</strong> and production folder <strong>dist/</strong>, that contains ready project with optimized HTML, CSS, JS and images.</p>
+<p>The template uses a Sass with <strong>Sass</strong> syntax, Jade - syntax and project structure with source code in the directory <strong>app/</strong> and production folder <strong>dist/</strong>, that contains ready project with optimized HTML, CSS, JS and images.</p>
 
-<h2>How to use OptimizedHTML</h2>
+<h2>How to use OptimizedJade</h2>
 
 <h2>Gulp tasks:</h2>
 
 <ul>
-	<li><strong>gulp</strong>: run default gulp task (sass, js, watch, browserSync) for web development;</li>
+	<li><strong>gulp</strong>: run default gulp task (sass, jade, js, watch, browserSync) for web development;</li>
 	<li><strong>build</strong>: build project to <strong>dist</strong> folder (cleanup, image optimize, removing unnecessary files);</li>
 	<li><strong>deploy</strong>: project deployment on the server from <strong>dist</strong> folder via FTP;</li>
 	<li><strong>clearcache</strong>: clear all gulp cache.</li>
 </ul>
 
-<h2>Rules for working with the starting HTML template</h2>
+<h2>Rules for working with the starting Jade template</h2>
 
 <ol>
-	<li>All HTML files should have similar initial content as in <strong>app/index.html</strong>;</li>
+	<li>All jade files should have similar initial content as in <strong>app/index.html</strong>;</li>
 	<li><strong>Template Basic Images Start</strong> comment in app/index.html - all your custom template basic images (og:image for social networking, favicons for a variety of devices);</li>
 	<li><strong>Load Fonts CSS Start</strong> comment in app/index.html: use <strong>loadCSS</strong> function, if the site is located in a subfolder. Use (uncomment) <strong>loadLocalStorageCSS</strong>, if the site is at the root. One of the lines should always be commented out. All fonts are connected in <strong>app/sass/fonts.sass</strong> with Bourbon;</li>
 	<li><strong>Custom Browsers Color Start</strong> comment in app/index.html: set the color of the browser head on a variety of devices;</li>
