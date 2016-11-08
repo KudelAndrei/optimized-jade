@@ -1,6 +1,7 @@
 <h1>GulpJADE- Start Jade Template</h1>
 
-<p>Author: Kudel <a href="https://vk.com/id252972675"></a></a></p>
+<p>Author: <a href="http://webdesign-master.ru/">WebDesign Master</a></a></p>
+<p>Modified: <a href="https://vk.com/id252972675">Kudel</a></p>
 
 <p>OptimizedJade is all-inclusive, optimized for Google PageSpeed start HTML5 template with Bootstrap (grid only), Gulp, Sass, Jade, Browsersync, Autoprefixer, Clean-CSS, Uglify, Imagemin, Vinyl-FTP, Bower (libs path) and Bourbon support. The template contains a <strong>.htaccess</strong> file with caching rules for web server.</p>
 
