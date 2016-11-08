@@ -28,11 +28,11 @@
 <h2>Rules for working with the starting Jade template</h2>
 
 <ol>
-	<li>All jade files should have similar initial content as in <strong>app/index.html</strong>;</li>
+	<li>All jade files should have similar initial content as in <strong>app/_jadefile/index.jade</strong>;</li>
 	<li><strong>Template Basic Images Start</strong> comment in app/index.html - all your custom template basic images (og:image for social networking, favicons for a variety of devices);</li>
-	<li><strong>Load Fonts CSS Start</strong> comment in app/index.html: use <strong>loadCSS</strong> function, if the site is located in a subfolder. Use (uncomment) <strong>loadLocalStorageCSS</strong>, if the site is at the root. One of the lines should always be commented out. All fonts are connected in <strong>app/sass/fonts.sass</strong> with Bourbon;</li>
-	<li><strong>Custom Browsers Color Start</strong> comment in app/index.html: set the color of the browser head on a variety of devices;</li>
-	<li><strong>Custom HTML</strong> comment in app/index.html - all your custom HTML;</li>
+	<li><strong>Load Fonts CSS Start</strong> comment in app/_jadefile/index.jade: use <strong>loadCSS</strong> function, if the site is located in a subfolder. Use (uncomment) <strong>loadLocalStorageCSS</strong>, if the site is at the root. One of the lines should always be commented out. All fonts are connected in <strong>app/sass/fonts.sass</strong> with Bourbon;</li>
+	<li><strong>Custom Browsers Color Start</strong> comment in app/_jadefile/index.jade: set the color of the browser head on a variety of devices;</li>
+	<li><strong>Custom HTML</strong> comment in app/_jadefile/index.jade - all your custom HTML;</li>
 	<li><strong>Optimized loading JS Start</strong> comment in app/index.html: loading all scripts;</li>
 	<li>For installing new jQuery library, just run the command "<strong>bower i plugin-name</strong>" in the terminal. Libraries are automatically placed in the folder <strong>app/libs</strong>. Bower must be installed in the system (npm i -g bower). Then place all jQuery libraries paths in the <strong>'libs'</strong> task (gulpfile.js);</li>
 	<li>All custom JS located in <strong>app/js/common.js</strong>;</li>
