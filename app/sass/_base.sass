@@ -1,0 +1,55 @@
+@import "bourbon"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+body
+	font-size: 30px
+	min-width: 320px
+	position: relative
+	line-height: em(20)
+	font-family: "roboto", sans-serif // $verdana // bourbon
+	overflow-x: hidden
+
+a 
+	font-family: "roboto", sans-serif
+	font-weight: 500
+	outline: none!important
+	cursor: pointer
+	&:hover, &:active
+		color: $accent-color
+		text-decoration: none
+	&:focus
+		text-decoration: none
+
+a.buttons
+	background-color: $accent-color
+	padding: 20px 35px
+	font-size: em(18)
+	font-weight: 400
+	border: none
+	&:hover
+		background-color: lighten($accent-color, 10%)
+	&:active
+		box-shadow: 0 0 15px 15px rgba(darken($accent-color, 5%),.5) inset

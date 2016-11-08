@@ -1,0 +1,162 @@
+@charset 'UTF-8';
+/* Slider */
+
+/***************************** Arrows *************************************/
+.slick-prev,
+.slick-next
+{
+	position: absolute;
+	top: 50%;
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	cursor: pointer;
+	color: transparent;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+	color: transparent;
+	outline: none;
+	background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+	opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+	opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+	font-size: 34px;
+	line-height: 1;
+	opacity: .75;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+	left: -40px;
+	opacity: .5;
+	transition: all .3s;
+}
+.slick-prev:before
+{
+	content: '❮'; /*kлево*/
+}
+
+.slick-next
+{
+	right: -40px;
+	opacity: .5; 
+	transition: all .3s;  
+}
+.slick-next:hover{
+	opacity: 1;
+}
+.slick-prev:hover{
+	opacity: 1;
+}
+
+.slick-next:before
+{
+	content: '❯'; /*право*/
+}
+[dir='rtl'] .slick-next:before
+{
+	content: '❮'; /*лево*/
+}
+
+/**************************** Dots ********************************/
+.slick-dotted.slick-slider
+{
+	margin-bottom: 30px;
+}
+
+.slick-dots
+{
+	position: absolute;
+	bottom: -25px;
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+.slick-dots li
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 12px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 0;
+}
+.slick-dots li button
+{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #111;
+	opacity: .3;
+	cursor: pointer;
+	border: 0;
+	transition: all .3s;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+	outline: none;
+	opacity: .5;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+	opacity: 1;
+}
+.slick-dots li button:before
+{
+	line-height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	text-align: center;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active /*активный дотс*/
+{
+	transition: all .3s;
+	transform: scale(1.2);
+}
+.slick-dots li.slick-active button
+{
+	opacity: .6;
+	transition: all .3s;
+}
