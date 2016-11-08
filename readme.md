@@ -9,9 +9,12 @@
 
 <p>Cross-browser compatibility: IE9+.</p>
 
-<p>The template uses a Sass with <strong>Sass</strong> syntax, Jade - syntax and project structure with source code in the directory <strong>app/</strong> and production folder <strong>dist/</strong>, that contains ready project with optimized HTML, CSS, JS and images.</p>
+<p>The template uses a Sass with <strong>Sass</strong> syntax, <strong>Jade</strong> - syntax and project structure with source code in the directory <strong>app/</strong> and production folder <strong>dist/</strong>, that contains ready project with optimized HTML, CSS, JS and images.</p>
 
 <h2>How to use OptimizedJade</h2>
+<p>Download <a href="https://github.com/KudelAndrei/optimized-jade/archive/master.zip">optimized-jade</a> from GitHub;</p>
+<p>Install Node Modules: npm i;</p>
+<p>Run the template: gulp.</p>
 
 <h2>Gulp tasks:</h2>
 
