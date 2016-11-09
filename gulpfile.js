@@ -66,7 +66,7 @@ gulp.task('libs', function() {
 // jade index
 gulp.task('jade', function() {
 	 return gulp.src('app/_jadefiles/*.jade')
-			.pipe(jade()) 
+			.pipe(jade().on("error", notify.onError()))
 			.pipe(gulp.dest('app/')); // указываем gulp куда положить скомпилированные HTML файлы
 });
 
